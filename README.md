@@ -4,7 +4,7 @@ This project captures screenshots from a YouTube live stream, performs OCR on ea
 
 ## Background
 
-I developed this tool to help family, friends, and colleagues who participate in the SKD CPNS selection test. Results for this test are often live-streamed on YouTube, where viewers can watch the progress of each participant and see rankings against others. However, it's challenging to monitor streams during working hours, and it can be time-consuming to find specific participants in a large group.
+I developed this tool to help me keep track of family, friends, and colleagues participating in the SKD CPNS selection test. Realtime results for this test are live-streamed on YouTube, where viewers can watch the progress of each participant and see rankings against others. However, it's challenging to monitor streams during working hours, and it can be time-consuming to find specific participants in a large group.
 
 This tool automates the process by taking periodic screenshots of the stream, scanning for the target text (like a participant’s name), and saving relevant screenshots to a folder. Users can check the results at their convenience, without needing to constantly monitor the stream.
 
