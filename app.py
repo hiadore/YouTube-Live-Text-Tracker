@@ -10,12 +10,8 @@ import pytesseract
 import yt_dlp
 
 
-# Constants
-# YOUTUBE_URL = 'https://www.youtube.com/watch?v=oVPuJ9EMpmw'  # YouTube live stream URL
-# TARGET_TEXT = "WIDYA ARYANI"  # Target text to search for in screenshots
-
 # Set Tesseract executable path
-pytesseract.pytesseract.tesseract_cmd = r"D:\Office\Gleematic_v2\packages\tesseract-ocr-w64-setup-v5.0.0-alpha.20210811\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"your_path_to_tesseract.exe"
 
 # Event to control stopping the capture
 stop_event = threading.Event()
@@ -131,8 +127,8 @@ def start_capture(stream_url, target_text):
 
 if __name__ == "__main__":
     # Change data here
-    YOUTUBE_URL = 'https://www.youtube.com/watch?v=oVPuJ9EMpmw'  # YouTube live stream URL
-    TARGET_TEXT = "WIDYA ARYANI"  # Target text to search for in screenshots
+    YOUTUBE_URL = 'YOUR_YOUTUBE_LIVESTREAM_URL'  # YouTube live stream URL
+    TARGET_TEXT = "YOUR_TARGET_NAME_TO_SEARCH"  # Target text to search for in screenshots
     CAPTURE_INTERVAL = 3  # Interval in seconds for capturing screenshots
     MATCH_THRESHOLD = 80  # Threshold for fuzzy text matching
 
